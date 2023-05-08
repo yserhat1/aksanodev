@@ -1,0 +1,173 @@
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  max-width: 100%;
+}
+
+.menuColor{
+  color: #990033;
+}
+
+
+.heroImg{
+  width: 100%;
+  background: linear-gradient(rgba(5, 32, 103, 0.5),rgba(6, 36, 113, 0.5)) ,  url("img/hero.jpg");
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.lang ul li{
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.navbar-nav li a{
+  color: white;
+}
+
+.leftNav ul li{
+  list-style: none;
+  cursor: pointer;
+  margin-top: .5rem;
+}
+
+.leftNav ul li:hover{
+  color: #990033;
+}
+
+
+.search input,select{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-top: 1.5rem;
+}
+
+.searchBtn{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  transition: .37s;
+}
+
+.searchBtn:hover{
+  background-color: black;
+  color: white;
+}
+
+.alfabeSiralama a{
+  color: black;
+  text-decoration: none;
+}
+
+.teamCard{
+  text-align: center;
+}
+
+.teamCard img{
+  transition: .37s;
+  filter: grayscale(100%);
+}
+
+.teamCard:hover img{
+  filter: grayscale(0);
+  transform: scale(1.03);
+}
+
+footer {
+  background-color: #212121;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+.list-unstyled li a  {
+  text-decoration: none;
+}
+.bottom-footer {
+  background-color: #000;
+  padding: 20px 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+.bottom-footer p {
+  margin-bottom: 0;
+}
+
+.bottom-footer a {
+  color: #fff;
+}
+
+.bottom-footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.list-unstyled li a {
+  color: #fff;
+}
+
+.list-unstyled li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  color: #fff;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+
+  /* İçeriklerin genişliğini ayarla */
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  
+    .row {
+    width: 100% !important;
+    display: block;
+    align-items: center;
+  }
+  
+  
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+.row teamCard {
+  width: 100%;
+}
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+  .row > div[class^="col-"] {
+    width: 100%;
+  }
+}
